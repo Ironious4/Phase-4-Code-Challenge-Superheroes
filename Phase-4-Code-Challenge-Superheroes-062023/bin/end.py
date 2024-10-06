@@ -3,7 +3,7 @@ import os
 
 if __name__ == "__main__":
     name = ''
-    with open('bin/config') as config_file:
+    with open('config') as config_file:
         name = config_file.read()
 
     if name: 
